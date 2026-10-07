@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "freewebfetch": {
+      "command": "python3",
+      "args": ["/home/wjg/freewebfetch-mcp/server.py"],
+      "env": {
+        "HTTPS_PROXY": "http://127.0.0.1:7897",
+        "HTTP_PROXY": "http://127.0.0.1:7897",
+        "FREEWEB_REGION": "us-en",
+        "FREEWEB_LOG_LEVEL": "INFO"
+      }
+    }
+  }
+}
